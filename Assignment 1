@@ -1,0 +1,25 @@
+studno=int(input('Enter studno:'))
+studname=input('Enter studname:')
+studgroup=input('Enter studgroup:')
+sub1=int(input('Enter maths marks:'))
+sub2=int(input('Enter physics marks:'))
+sub3=int(input('Enter cs marks:'))
+sub4=int(input('Enter eng marks:'))
+sub5=int(input('Enter tel marks:'))
+sub6=int(input('Enter env marks:'))
+if sub1>=35 and sub2>=35 and sub3>=35 and sub4>=35 and sub5>=35 and sub6>=35:
+    print('Pass')
+else:
+    print('Fail')
+
+OUTPUT:
+Enter studno:
+Enter studname:
+Enter studgroup:mpcs
+Enter maths marks:43
+Enter physics marks:48
+Enter cs marks:48
+Enter eng marks:41
+Enter tel marks:40
+Enter env marks:42
+Pass
